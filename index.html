@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>YouTube Clone</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="logo">My Tube</div>
+    <div class="search-box">
+      <input type="text" placeholder="Search" />
+      <button>🔍</button>
+    </div>
+    <div class="profile" id="profile-btn">👤</div>
+  </header>
+
+
+<!-- Sign In Modal -->
+<div id="signin-modal" class="modal">
+  <div class="modal-content">
+    <span class="close-btn">&times;</span>
+    <h2>Sign In</h2>
+    <input type="text" placeholder="Email or Username" />
+    <input type="password" placeholder="Password" />
+    <button class="signin-btn">Sign In</button>
+  </div>
+</div>
+
+
+  <!-- Sidebar -->
+  <aside>
+    <ul>
+      <li>🏠 Home</li>
+      <li>🔥 Trending</li>
+      <li>📺 Subscriptions</li>
+      <li>📚 Library</li>
+    </ul>
+  </aside>
+
+  <!-- Main Content -->
+  <main>
+    <div class="video-grid">
+      <!-- Video Card -->
+      <div class="video-card">
+        <img src="thumb2.png" alt="Video Thumbnail" />
+        <div class="video-info">
+          <h4>Techno going to survive in minecraft</h4>
+          <p>techno gaming</p>
+          <p>10K views • 1 day ago</p>
+        </div>
+      </div>
+
+      <!--  card -->
+      <div class="video-card">
+        <img src="thumb1.jpg" alt="Video Thumbnail" />
+        <div class="video-info">
+          <h4>My journey begins</h4>
+          <p>Abrar gaming</p>
+          <p>5M views • 2 days ago</p>
+        </div>
+      </div>
+
+      <div class="video-card">
+        <img src="thumb3.jpg" alt="Video Thumbnail" />
+        <div class="video-info">
+          <h4>Minecraft houses have no logic</h4>
+          <p>yesmartypie</p>
+          <p>1.5M views • 2 days ago</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
